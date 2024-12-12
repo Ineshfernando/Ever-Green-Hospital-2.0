@@ -608,6 +608,16 @@ button:hover {
 .ri-map-pin-2-fill2{
     margin-left: -145px;
 }
+    
+.cart-table {
+    width: 50%;
+    max-width: 1200px;
+    margin: 20px auto;
+    border-collapse: collapse;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    margin-right: 16%;
+  }
 }
 
 
