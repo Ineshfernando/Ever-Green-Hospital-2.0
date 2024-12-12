@@ -1,0 +1,534 @@
+/* body styling */
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: rgb(255, 255, 255);
+}
+
+
+/* Header styling */
+header {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  background-color: #59cad2; 
+  border-bottom: 10px solid #ccc;
+}
+
+/* Navbar styling */
+.navbar {
+  background-color: #59cad2;
+  padding: 10px;
+
+
+}
+
+.navbar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.navbar li {
+  margin: 0 10px;
+  text-align: center;
+  margin-top: 36px;
+}
+
+/* Navbar link styling */
+.navbar a {
+  text-decoration: none;
+  padding: 15px 25px; 
+  background-color: #e6e6e6; 
+  color: #333; 
+  border-radius: 10px;
+  cursor: pointer;
+  display: flex; 
+  align-items: center; 
+  justify-content: center; 
+  width: 65px; 
+  height: 45px; 
+}
+
+.navbar a:hover {
+  background-color: #bffefb; 
+}
+
+/* Logo styling */
+.logo {
+  flex: 1;
+}
+
+/* Logo styling */
+.logo button {
+  padding: 0; 
+  margin: 5px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  height: 120px; 
+  width: 240px; 
+
+}
+
+.logo button img {
+  width: 100%; 
+  height: 100%; 
+  object-fit: cover; 
+
+}
+
+
+
+.main_image{
+    max-width: 101.7%;
+    height: auto;
+    width: 100%;
+    
+}
+
+
+
+
+
+
+
+
+.b{
+    font-size: 23px;
+    margin-left: 1%;
+    margin-top: 5%;
+    font-weight: 10%;
+
+
+}
+.c{
+
+        font-size: 1.2rem; 
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+        color: #2f4f4f; 
+        margin-left: 1%;
+        margin-top: 2%;
+        margin-right: 39%;
+        line-height: 1.8;
+        background-color: #ffffff; 
+        padding: 20px;
+        border-radius: 8px; 
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    }
+
+    .sub1 {
+        margin-left: 1%;
+        margin-top: 10%;
+        margin-bottom: -1%;
+        font-size: 20px;
+        font-weight: bold;
+        color: #007b83; 
+    }
+
+
+
+
+
+
+    .container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 20px; /* Adjust spacing between images */
+    }
+    
+    .container .image-box {
+        width: 280px;
+        height: 280px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border: 1px solid #ccc;
+        box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        background-color: #f9f9f9;
+        overflow: hidden; /*the image doesn't overflow */
+        margin-top: 0.9%;
+    }
+    
+    .container .image-box img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover; /*the image covers in the entire box */
+    }
+    
+    .mi {
+        font-size: 24px; 
+        font-family: 'Roboto', sans-serif; 
+        color: #004d66; 
+        margin-top: 4%;  
+        margin-left: 1%;
+    }
+
+    .sub1 {
+        margin-left: 2%;
+        margin-top: 10%;
+        margin-bottom: -1%;
+        font-size: 23px;
+        font-weight: bold;
+        color: #007b83; 
+    
+    }
+
+    .o{
+        margin-left: 29px;
+        
+    }
+
+
+.navbar1 ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.navbar1 li {
+    
+    text-align: center;
+    margin-top: 10px;
+}
+
+
+.navbar1 a {
+    text-decoration: none;
+    padding: 15px 25px; 
+    background-color: #e6e6e6; 
+    color: #333; 
+    border-radius: 70px;
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+    width: 138px; 
+    height: 25px; 
+    margin-left: 10%;
+    
+}
+
+.navbar1 a:hover {
+    background-color: #26c8d4; 
+}
+
+
+/*1st Image Style */
+.img3p {
+    width: 450px; 
+    height: 300px; 
+    margin-left: 65%;
+    margin-top: -400px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease; 
+    margin-bottom: 38px;
+
+
+}
+
+/*1st Image hover*/
+.img3p:hover {
+    transform: scale(1.05); 
+}
+
+/*2nd Image Style */
+.img4p {
+    width: 450px; 
+    height: 300px; 
+    margin-left: 65%;
+    margin-top: -400px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+    margin-bottom: 38px; 
+
+
+}
+
+/*2nd Image hover*/
+.img4p:hover {
+    transform: scale(1.05); 
+}
+
+
+
+
+
+
+/* Footer styling */
+.footer {
+  background-color:  #c5f9fd;   /*#c2e3f6; */
+  width: 100%;
+}
+
+
+
+
+.footer__logo img {
+  width: 200px; 
+  height: 100px;
+  margin-right: 200px;
+  border-radius: 1%;
+  margin-left: 5%;
+}
+
+.footer__container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr) 400px;
+  gap: 2rem;
+}
+
+
+/* Footer bar content styling */
+.footer__bar__content {
+
+  margin: auto;
+  padding: 0.5rem 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 2rem;
+}
+/* Footer bar content styling */
+.footer__bar__content p {
+  font-size: 0.8rem;
+
+}
+.footer__socials {
+  display: flex;
+  gap: 15px; /* Space between icons */
+  margin-left: 10px;
+}
+
+
+
+.footer__socials .social-icon img {
+  width: 30px; 
+  height: 30px; 
+  margin-right: 10px; 
+  border-radius: 20%;
+}
+
+
+/* ever green hospital motto styling */
+.pppp{
+  margin-left: 42%;
+
+
+}
+
+
+
+
+/* Mobile styles */
+@media only screen and (max-width:490px) {
+  /* Header */
+  header {
+      flex-direction: column; 
+      padding: 10px;
+      width: 453px;
+      margin-left: -10%;
+
+  }
+
+  /* Navbar styles for mobile */
+  .navbar {
+      display: flex; /* Flexbox to arrange items */
+      flex-wrap: wrap; 
+      justify-content: space-between; 
+      width: 90%;
+      margin-left: 20px;
+      
+      
+  }
+
+  .navbar ul {
+      display: flex; /* Flexbox for button layout */
+      flex-wrap: wrap; 
+      padding: 0;
+      margin-left:55px ;
+      width: 90%; 
+  }
+
+  .navbar li {
+      width: 48%; 
+      margin: 5px 1%; /* Adds margin between items */
+      list-style: none; /* Removes bullet points */
+
+  }
+
+  .navbar a {
+      display: block; 
+      padding: 10px; 
+      background-color: #e6e6e6;
+      color: #000; 
+      text-align: center; 
+      border-radius: 10px; 
+      text-decoration: none; /* Removes underline */
+      font-size: 16px; 
+      transition: background-color 0.3s; 
+      width: 100px;
+  }
+
+  /* Logo styles */
+  .logo button {
+      height: 100px; 
+      width: 200px; 
+      margin-left:7%;
+  }
+
+  /* Adjust main content for mobile */
+  main {
+      flex-direction: column;
+      height: auto; /* Adjusts height for mobile */
+      padding: 5px;
+  }
+ 
+  .main_image {
+      max-width: 100%; 
+      width: 100%; 
+      height: auto; 
+      
+  }
+
+
+.b {
+  font-size: 18px; 
+  margin-left: 2%; /* Increased margin by 2% */
+  margin-top: 3%; /* Reduced the top margin */
+}
+
+/* Adjust .c styling */
+.c {
+  font-size: 1rem; /* set the font size to 1rem*/
+  margin-left: 2%; /*margin-left to 2% */
+  margin-top: 2%; /* Reduced top margin by 2%*/
+  margin-right: 2%; 
+  padding: 15px; 
+  line-height: 1.5; 
+}
+
+/* Adjust .sub1 styling */
+.sub1 {
+  font-size: 25px; 
+  margin-left: 6%; /* Adjusted margin-left by 6% */
+  margin-top: 5%; /* Reduced top margin by 5% */
+  margin-bottom: 1%; 
+
+}
+
+/* Adjust .container and image-box for mobile */
+.container {
+  flex-direction: row;
+  gap: 10px; 
+  
+  
+  
+
+  
+}
+
+.container .image-box {
+  width: 23%; /* Full width on mobile */
+  height: auto;
+  border: none; /* Remove the border  */
+  
+
+
+  
+}
+
+.container .image-box img {
+  width: 100%; 
+  height: 100%; 
+
+  
+}
+
+/* Adjust .mi styling */
+.mi {
+  font-size: 15px; 
+  margin-top: 3%; 
+  margin-left: 2%; 
+}
+
+/* Adjust .o styling */
+.o {
+  margin-left: 6%; /* Remove left margin on mobile */
+}
+
+/* Adjust .img3p and .img4p styling */
+.img3p, .img4p {
+  width: 70%; 
+  height: 250px; 
+  margin-left: 80px; /* Remove left margin to 80px */
+  margin-top: 10px; 
+  margin-bottom: 10px; 
+}
+
+/* Image hover effect */
+.img3p:hover, .img4p:hover {
+  transform: scale(1.02); 
+}
+
+.navbar1 li {
+  margin-left: 101px; 
+}
+
+
+  .footer__container {
+      grid-template-columns: repeat(2, 1fr); /* Two columns for tablet size */
+      gap: 1rem;
+      margin-top: 20px;
+  }
+  
+  .footer__logo img {
+      width: 100px;
+      height: 80px;
+      margin-right: 0;
+      margin-left: 0;
+      margin-top: 10px;
+      border-radius: 3%;
+      background-color: rgb(255, 255, 255);
+      
+  }
+  .footer__container {
+      grid-template-rows: 1fr; /* Single column for mobile */
+      text-align: center;
+      gap: 1.5rem;
+  }
+
+  .footer__logo img {
+      width: 190px;
+      height: 100px;
+  }
+
+  .footer__bar__content {
+      flex-direction: column;
+      text-align: center;
+      gap: 1rem;
+  }
+
+  .footer__socials {
+      justify-content: center;
+      margin-left: 13px;
+  }
+
+
+/* Evergreen hospital motto styling */
+.pppp {
+  margin-left: 0%;
+  text-align: center;
+  font-size: 20px;
+}
+
+.footer{
+  width: 429px;
+}
+
+}

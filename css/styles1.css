@@ -1,0 +1,647 @@
+/* body styling */
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: rgb(255, 255, 255);
+}
+
+
+/* Header styling */
+header {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  background-color: #59cad2; 
+  border-bottom: 10px solid #ccc;
+}
+
+/* Navbar styling */
+.navbar {
+  background-color: #59cad2;
+  padding: 10px;
+
+
+}
+
+.navbar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.navbar li {
+  margin: 0 10px;
+  text-align: center;
+  margin-top: 36px;
+}
+
+/* Navbar link styling */
+.navbar a {
+  text-decoration: none;
+  padding: 15px 25px; 
+  background-color: #e6e6e6; 
+  color: #333; 
+  border-radius: 10px;
+  cursor: pointer;
+  display: flex; 
+  align-items: center; 
+  justify-content: center; 
+  width: 65px; 
+  height: 45px; 
+}
+
+.navbar a:hover {
+  background-color: #bffefb; 
+}
+
+/* Logo styling */
+.logo {
+  flex: 1;
+}
+
+/* Logo styling */
+.logo button {
+  padding: 0; 
+  margin: 5px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  height: 120px; 
+  width: 240px; 
+
+}
+
+.logo button img {
+  width: 100%; 
+  height: 100%; 
+  object-fit: cover; 
+
+}
+
+
+/* Main image styling */
+.main_image {
+    max-width: 100%;
+    height: auto;
+ }
+
+
+
+
+/* Welcome text styling */
+.welcome {
+    text-align: center;
+    font-size: 50px; 
+    font-family:Great Vibes;
+    color:#007b83; 
+    margin-top: 3%; 
+    margin-bottom: 1.5rem;
+}
+
+/* Welcome message text styling */
+.welcome_text {
+    font-size: 20px; 
+    font-family: Arial, sans-serif;
+    color: #333333;
+    text-align: center;
+    margin:  auto;
+    background-color: #ffffff; 
+    padding: 1.25rem; 
+    border-radius: 8px; 
+    max-width: 75%; 
+    border: 1px solid #e0e0e0; 
+    line-height: 42px;
+    
+}
+
+/* section 1,2,3 Subheading styling */
+.sub1 {
+    margin-left: 6%;
+    margin-top: 10%;
+    margin-bottom: -1%;
+    font-size: 26px;
+    color: #007b83; 
+}
+
+/* section 1,2,3  first par paragraph styling */
+.para2{
+    font-size: 1.2rem; 
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+    color: #2f4f4f; 
+    margin-left: 6%;
+    margin-top: 3%;
+    margin-right: 39%;
+    line-height: 1.8;
+    background-color: #ffffff; 
+    padding: 20px;
+    border-radius: 8px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    margin-bottom: 4%;
+}
+
+/* section 1,2,3 second paragraph styling */
+.para3 {
+    font-size: 1.2rem; 
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+    color: #2f4f4f; 
+    margin-left: 6%;
+    margin-top: 3%;
+    margin-right: 39%;
+    line-height: 1.8;
+    background-color: #ffffff; 
+    padding: 20px;
+    border-radius: 8px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    margin-bottom: -10%;
+}
+/* section 1,2,3 second paragraph styling */
+.para3 {
+    margin-top: 0%; 
+}
+/* section 1,2 Image styling */
+.img3 {
+    width: 430px; 
+    height: 270px; 
+    margin-left: 65%;
+    margin-top: -600px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease; 
+   
+
+
+}
+
+/* section 1,2 Image hover */
+.img3l:hover {
+    transform: scale(1.05); 
+}
+
+.img3l {
+    width: 430px; 
+    height: 270px; 
+    margin-left: 65%;
+    margin-top: -100px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease; 
+    margin-bottom: 34px;
+   
+
+
+}
+
+/* section 1,2 Image hover */
+.img3:hover {
+    transform: scale(1.05); 
+}
+
+
+/* section 3 Image styling */
+.img4 {
+    width: 430px; 
+    height: 270px; 
+    margin-left: 65%;
+    margin-top: -300px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease; 
+
+
+
+}
+
+/* section 3 Image hover */
+.img4:hover {
+    transform: scale(1.05); 
+}
+
+
+
+/* bulet list and numbered list heading styling  */
+.w{ margin-left: 6%;
+    margin-top: 10%;
+    margin-bottom: -1%;
+    font-size: 26px;
+    font-weight: bold;
+    color: #007b83; 
+
+}
+
+
+/* bulets,numbers  styling both list*/
+.i{
+    font-size: 20px;
+    margin-top: 2%;
+    margin-left: 6%;
+  
+    
+}
+
+
+
+/* bullet list and nubered  list image styling */
+.img31 {
+    width: 430px; 
+    height: auto; 
+    margin-top: -300px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease; 
+    margin-left: 65%;
+    margin-bottom: 34px;
+}
+
+/* bullet list and nubered  list image hover */
+.img31:hover {
+    transform: scale(1.05); 
+}
+
+
+
+.img66{
+    width: 500px;
+    height: auto;
+    margin-left: 59%; 
+    margin-top: -300px; 
+    border-radius: 12px; 
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15); 
+    transition: transform 0.3s ease;
+    margin-bottom: 34px; 
+
+}
+
+.img66:hover {
+    transform: scale(1.05); 
+}
+
+
+/* evergreen staff heading style */
+.subh1{
+    margin-left: 6%;
+    margin-top: 10%;
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: #007b83; 
+    
+
+}
+
+
+/* evergreen staff para style */
+.para111{
+    font-size: 20px; 
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+    color: #333333; 
+    text-align: start;
+    margin: 0 auto;
+    margin-top: 1rem;
+    line-height: 35px; 
+    background-color:  #ffffff;
+    padding: 1.25rem; 
+    border-radius: 8px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05); 
+    max-width: 66%; 
+    border: 1px solid #e0e0e0; 
+    margin-left: 6%;
+    width: 730px;
+    margin-bottom: -10%;
+}
+
+
+.img661{
+    width: 390px;
+    height: auto;
+    margin-left: 68%; 
+    margin-top: -120px; 
+    border-radius: 12px; 
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15); 
+    transition: transform 0.3s ease; 
+    margin-bottom: 34px;
+}
+
+.img661:hover {
+    transform: scale(1.05); 
+}
+
+
+
+
+
+/* Footer styling */
+.footer {
+    background-color:  #c5f9fd;   /*#c2e3f6; */
+    width: 100%;
+  }
+  
+
+
+  
+  .footer__logo img {
+    width: 200px; 
+    height: 100px;
+    margin-right: 200px;
+    border-radius: 1%;
+    margin-left: 5%;
+  }
+  
+  .footer__container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr) 400px;
+    gap: 2rem;
+  }
+  
+  
+/* Footer bar content styling */
+  .footer__bar__content {
+
+    margin: auto;
+    padding: 0.5rem 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 2rem;
+  }
+  /* Footer bar content styling */
+  .footer__bar__content p {
+    font-size: 0.8rem;
+
+  }
+  .footer__socials {
+    display: flex;
+    gap: 15px; /* Space between icons */
+    margin-left: 10px;
+  }
+  
+
+  
+  .footer__socials .social-icon img {
+    width: 30px; 
+    height: 30px; 
+    margin-right: 10px; 
+    border-radius: 20%;
+  }
+  
+  
+/* ever green hospital motto styling */
+  .pppp{
+    margin-left: 42%;
+
+
+}
+
+
+
+
+
+
+/* Mobile styles */
+@media only screen and (max-width:490px) {
+  /* Header */
+  header {
+      flex-direction: column; 
+      width: 453px;
+      margin-left: -10%;
+
+  }
+
+  /* Navbar styles for mobile */
+  .navbar {
+      display: flex; /* Flexbox to arrange items */
+      flex-wrap: wrap; 
+      justify-content: space-between; 
+      width: 90%;
+      margin-left: 20px;
+      
+      
+  }
+
+  .navbar ul {
+      display: flex; /* Flexbox for button layout */
+      flex-wrap: wrap; 
+      padding: 0;
+      margin-left:55px ;
+      width: 90%; 
+  }
+
+  .navbar li {
+      width: 48%; 
+      margin: 5px 1%; /* Adds margin between items */
+      list-style: none; /* Removes bullet points */
+
+  }
+
+  .navbar a {
+      display: block; 
+      padding: 10px; 
+      background-color: #e6e6e6;
+      color: #000; 
+      text-align: center; 
+      border-radius: 10px; 
+      text-decoration: none; /* Removes underline */
+      font-size: 16px; 
+      transition: background-color 0.3s; 
+      width: 100px;
+  }
+
+  /* Logo styles */
+  .logo button {
+      height: 100px; 
+      width: 200px; 
+      margin-left:7%;
+  }
+
+  /* Adjust main content for mobile */
+  main {
+      flex-direction: column;
+      height: auto; /* Adjusts height for mobile */
+      padding: 5px;
+  }
+ 
+  .main_image {
+      width:400px;
+      height: auto;
+      margin-top: 15px;
+      margin-left: 13.5px;
+      
+     
+     
+  }
+
+  /* Adjust Welcome text */
+  .welcome {
+      font-size: 32px; 
+      margin-top: 1%;
+      margin-bottom: 1rem;
+      margin-left: -10px;
+  }
+
+  /* Adjust Welcome message text styling */
+  .welcome_text {
+      font-size: 16px; 
+      max-width: 80%; 
+      padding: 1rem; 
+      line-height: 28px; 
+      margin-left: 25px;
+  }
+
+  /* Adjust section 1,2,3 Subheading styling */
+  .sub1 {
+      font-size: 22px; 
+      margin-left: 7%;
+      margin-top: 20%;
+      
+  }
+
+  /* Adjust section 1,2,3 paragraphs styling */
+  .para2, .para3 {
+      font-size: 1rem; 
+      margin-left: 6%;
+      margin-right: 4%;
+      padding: 15px; 
+      margin-bottom: 2%;
+      max-width: 80%;
+
+  }
+
+  /* Image styling */
+  .img3{
+      width: 300px; 
+      height: 200px;
+      margin-left: 8%; /* Remove margin for mobile */
+      margin-top: 20px; 
+      margin-bottom: 20px; 
+
+  }
+  .img3l{
+      width: 300px; 
+      height: 200px;
+      margin-left: 23%; /* Remove margin for mobile */
+      margin-top: -15px; 
+      margin-bottom: 20px;
+  }
+
+  .img4{
+      width: 300px; 
+      height: 200px;
+      margin-left: 7%; /* Remove margin for mobile */
+      margin-top: 19px; 
+      margin-bottom: 20px; 
+  }
+
+  .img31{
+      width: 300px;
+      height: 200px;
+      margin-left: 1%; /* Remove margin for mobile */
+      margin-top: 19px; 
+      margin-bottom: 20px; 
+  }
+
+  .img66{
+      width: 300px; 
+      height: 200px;
+      margin-left: 14%; /* Remove margin for mobile */
+      margin-top: 29px; 
+      margin-bottom: 20px; 
+  }
+
+  .img661{
+      width: 300px; 
+      height: 200px;
+      margin-left: 14%; /* Remove margin for mobile */
+      margin-top: 19px; 
+      margin-bottom: 20px; 
+  }
+
+  /* Adjust section  Images hover */
+  .img3:hover, .img3l:hover, .img4:hover, .img31:hover, .img66:hover, .img661:hover {
+      transform: scale(1.02); 
+  }
+  .i{
+      font-size: 14px;
+  }
+  /* Adjust evergreen staff subheading style */
+  .subh1 {
+      margin-top: -10%;
+      font-size:20px; 
+      margin-left: 4%;
+  }
+
+  /* Adjust evergreen staff paragraph style */
+  .para111 {
+      font-size: 16px;
+      max-width: 85%; 
+      padding: 1rem; 
+      line-height: 24px; 
+      width: auto; 
+      margin-left: 4%;
+      margin-bottom: 2%;
+  }
+
+  .w{
+      font-size: 17.1px;
+      margin-left: 40px;
+  }
+  .img31{
+      margin-left: 80px;
+      margin-top: 40px;
+  }
+
+
+
+
+  .footer__container {
+      grid-template-columns: repeat(2, 1fr); 
+      gap: 1rem;
+      margin-top: 20px;
+  }
+  
+  .footer__logo img {
+      width: 100px;
+      height: 80px;
+      margin-right: 0;
+      margin-left: 0;
+      margin-top: 10px;
+      border-radius: 3%;
+      background-color: rgb(255, 255, 255);
+      
+  }
+
+
+  .footer__container {
+      grid-template-rows: 1fr; /* Single column for mobile */
+      text-align: center;
+      gap: 1.5rem;
+  }
+
+  .footer__logo img {
+      width: 190px;
+      height: 100px;
+  }
+
+  .footer__bar__content {
+      flex-direction: column;
+      text-align: center;
+      gap: 1rem;
+  }
+
+  .footer__socials {
+      justify-content: center;
+      margin-left: 13px;
+  }
+
+
+/* Evergreen hospital motto styling */
+.pppp {
+  margin-left: 0%;
+  text-align: center;
+  font-size: 20px;
+}
+
+.footer{
+  width: 429px;
+}
+
+}

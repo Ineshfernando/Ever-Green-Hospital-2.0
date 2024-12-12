@@ -1,0 +1,556 @@
+/* body styling */
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: rgb(255, 255, 255);
+}
+
+
+/* Header styling */
+header {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  background-color: #59cad2; 
+  border-bottom: 10px solid #ccc;
+}
+
+/* Navbar styling */
+.navbar {
+  background-color: #59cad2;
+  padding: 10px;
+
+
+}
+
+.navbar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.navbar li {
+  margin: 0 10px;
+  text-align: center;
+  margin-top: 36px;
+}
+
+/* Navbar link styling */
+.navbar a {
+  text-decoration: none;
+  padding: 15px 25px; 
+  background-color: #e6e6e6; 
+  color: #333; 
+  border-radius: 10px;
+  cursor: pointer;
+  display: flex; 
+  align-items: center; 
+  justify-content: center; 
+  width: 65px; 
+  height: 45px; 
+}
+
+.navbar a:hover {
+  background-color: #bffefb; 
+}
+
+/* Logo styling */
+.logo {
+  flex: 1;
+}
+
+/* Logo styling */
+.logo button {
+  padding: 0; 
+  margin: 5px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  height: 120px; 
+  width: 240px; 
+
+}
+
+.logo button img {
+  width: 100%; 
+  height: 100%; 
+  object-fit: cover; 
+
+}
+
+/* Subtitle styles */
+.sub1 {
+    margin-left: 6%;
+    margin-top: 6%;
+    margin-bottom: -3%;
+    font-size: 32px;
+    font-weight: bold;/* Sets font to bold. */
+    color: #007b83; 
+
+}
+
+
+/* Paragraph styles */
+.para2{
+    font-size: 1.2rem; 
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+    color: #2f4f4f; 
+    margin-left: 6%;
+    margin-top: 3%;
+    margin-right: 39%;
+    line-height: 1.8;
+    background-color: #ffffff; 
+    padding: 20px;
+    border-radius: 8px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+}
+
+.para2 {
+    margin-top: 5%; 
+}
+/* Image styles */
+.img3 {
+    width: 420px; 
+    height: auto; 
+    margin-left: 67%;
+    margin-top: -380px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease; 
+    margin-bottom: 42px;  /* Adds bottom margin to 42px */
+
+
+}
+
+
+.img3:hover {
+    transform: scale(1.05); /*Image on hover */
+}
+/* Paragraph styles */
+.para3{
+    font-size: 1.2rem; 
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+    color: #2f4f4f; 
+    margin-left: 6%;
+    margin-top: 3%;
+    margin-right: 39%;
+    line-height: 1.8;
+    background-color: #ffffff; 
+    padding: 20px;
+    border-radius: 8px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+}
+
+.para3{
+    margin-top: 4%; 
+}
+/* Image Style */
+.img4 {
+    width: 420px; 
+    height: 260px; 
+    margin-left: 67%;
+    margin-top: -2330px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease; 
+    margin-bottom: 40px;
+
+
+}
+
+/* Image Hover */
+.img4:hover {
+    transform: scale(1.05); 
+}
+/* Paragraph styles */
+.para4{
+    font-size: 1.2rem; 
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+    color: #2f4f4f; 
+    margin-left: 6%;
+    margin-top: 3%;
+    margin-right: 39%;
+    line-height: 1.8;
+    background-color: #ffffff; 
+    padding: 20px;
+    border-radius: 8px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+}
+
+.para4{
+    margin-top: 0%; 
+}
+
+/* Subheading styles */
+.sub20 {
+    margin-left: 6%;
+    margin-top: 1%;
+    margin-bottom: -3%;
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: #007b83; 
+}
+
+
+
+.k {
+    margin-left: 18.5%;
+    margin-top: 6%;
+    margin-bottom: -3%;
+    font-size: 21px;
+    color: #000000;
+
+}
+
+
+
+
+/* Subheading styles */
+.sub11 {
+    margin-left: 18%;
+    margin-top: 10%;
+    margin-bottom: -1%;
+    font-size: 23px;
+    font-weight: bold;
+    color: #007b83; 
+
+}
+
+.text-box, .background-box {
+    width: 400px;
+    border: 1px solid #000;
+    padding: 20px;
+    text-align: center;
+    height: 56px;
+
+}
+
+
+.container {
+    width: 400px;
+    max-width: 1200px;
+
+
+}
+
+.grid-container {
+    display: grid; /* Use CSS Grid layout */
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, auto); 
+    gap: 20px; 
+    padding: 20px; /* Padding around the grid by 20px */
+    margin-left: 60%; 
+    max-width: 90%; 
+}
+
+/* Media query to adjust grid layout for smaller screens */
+@media (max-width: 1000px) { 
+    .grid-container {
+        grid-template-columns: repeat(2, 1fr); 
+    
+    }
+
+}
+
+
+
+@media (max-width: 600px) { 
+    .grid-container { 
+        grid-template-columns: repeat(2, 1fr); 
+        margin-left: -20px; /* Remove left margin */
+        gap: 0px;
+        
+    }
+
+}
+
+
+.grid-item img {
+    width:215px;
+    height: 215px;
+    margin-left: 10;
+    display: block; 
+    object-fit: cover; 
+
+
+
+    
+}
+
+.image-grid img {
+    width: 10px;
+}
+
+
+
+/* Styling for the image grid container */
+.image-grid {
+    display: grid; 
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); /* Create responsive columns */
+    gap: 10px; 
+    max-width: 100%; 
+    padding: 10px; 
+}
+
+/* Styling for each image in the grid */
+.image-grid img {
+    width: 100%; 
+    height: auto; 
+    display: block; 
+    object-fit: cover; 
+    border-radius: 8px; 
+}
+
+/* Footer styling */
+.footer {
+  background-color:  #c5f9fd;   /*#c2e3f6; */
+  width: 100%;
+}
+
+
+
+
+.footer__logo img {
+  width: 200px; 
+  height: 100px;
+  margin-right: 200px;
+  border-radius: 1%;
+  margin-left: 5%;
+}
+
+.footer__container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr) 400px;
+  gap: 2rem;
+}
+
+
+/* Footer bar content styling */
+.footer__bar__content {
+
+  margin: auto;
+  padding: 0.5rem 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 2rem;
+}
+/* Footer bar content styling */
+.footer__bar__content p {
+  font-size: 0.8rem;
+
+}
+.footer__socials {
+  display: flex;
+  gap: 15px; /* Space between icons */
+  margin-left: 10px;
+}
+
+
+
+.footer__socials .social-icon img {
+  width: 30px; 
+  height: 30px; 
+  margin-right: 10px; 
+  border-radius: 20%;
+}
+
+
+/* ever green hospital motto styling */
+.pppp{
+  margin-left: 42%;
+
+
+}
+
+
+
+
+
+
+
+
+
+/* Mobile styles */
+@media only screen and (max-width:490px) {
+  /* Header */
+  header {
+      flex-direction: column; 
+      padding: 10px;
+      width: 453px;
+      margin-left: -10%;
+
+  }
+
+  /* Navbar styles for mobile */
+  .navbar {
+      display: flex; /* Flexbox to arrange items */
+      flex-wrap: wrap; 
+      justify-content: space-between; 
+      width: 90%;
+      margin-left: 20px;
+      
+      
+  }
+
+  .navbar ul {
+      display: flex; /* Flexbox for button layout */
+      flex-wrap: wrap; 
+      padding: 0;
+      margin-left:55px ;
+      width: 90%; 
+  }
+
+  .navbar li {
+      width: 48%; 
+      margin: 5px 1%; /* Adds margin between items */
+      list-style: none; /* Removes bullet points */
+
+  }
+
+  .navbar a {
+      display: block; 
+      padding: 10px; 
+      background-color: #e6e6e6;
+      color: #000; 
+      text-align: center; 
+      border-radius: 10px; 
+      text-decoration: none; /* Removes underline */
+      font-size: 16px; 
+      transition: background-color 0.3s; 
+      width: 100px;
+  }
+
+  /* Logo styles */
+  .logo button {
+      height: 100px; 
+      width: 200px; 
+      margin-left:7%;
+  }
+
+  /* Adjust main content for mobile */
+  main {
+      flex-direction: column;
+      height: auto; /* Adjusts height for mobile */
+      padding: 5px;
+  }
+ 
+  /* Adjust subtitle for mobile */
+  .sub1 {
+      margin-left: 5%;
+      margin-top: 6%;
+      font-size: 19px; 
+  }
+
+  /* Adjust paragraph for mobile */
+  .para2 {
+      font-size: 1rem; /* Smaller font size to 1rem for mobile */
+      margin-left: 5%;
+      margin-right: 5%;
+      margin-top: 5%;
+  }
+
+  /* Adjust image for mobile */
+  .img3 {
+      width: 70%; 
+      margin-left: 15%;
+      margin-top: 20px; 
+      margin-bottom: 20px; /* Adjust bottom margin to 20px */
+  }
+
+  /* Adjust paragraph styles for mobile */
+  .para3,
+  .para4 {
+      font-size: 1rem; 
+      margin-left: 5%;
+      margin-right: 5%;
+      margin-top: 2%;
+      padding: 15px; 
+  }
+
+  /* Adjust image styles for mobile */
+  .img4 {
+      width: 300px;
+      height: 240px;
+      margin-left: 16%;
+      margin-top: 20px; 
+      margin-bottom: 20px; 
+  }
+
+  /* Adjust subheading styles for mobile */
+  .sub20 {
+      margin-left: 5%;
+      margin-top: 5%;
+      font-size: 1.4rem; 
+  }
+
+  /* Adjust styles for .k for mobile */
+  .k {
+      margin-left: 0.9%; 
+      margin-bottom: 2%; 
+      font-size: 13px; 
+  }
+
+  /* Adjust subheading styles for .sub11 for mobile */
+  .sub11 {
+      margin-left: 1%; 
+      margin-top: 5%; 
+      margin-bottom: 2%; 
+      font-size: 16px; 
+  }
+
+
+  .footer__container {
+      grid-template-columns: repeat(2, 1fr); 
+      gap: 1rem;
+      margin-top: 20px;
+  }
+  
+  .footer__logo img {
+      width: 100px;
+      height: 80px;
+      margin-right: 0;
+      margin-left: 0;
+      margin-top: 10px;
+      border-radius: 3%;
+      background-color: rgb(255, 255, 255);
+      
+  }
+
+  .footer__container {
+      grid-template-rows: 1fr; 
+      text-align: center;
+      gap: 1.5rem;
+  }
+
+  .footer__logo img {
+      width: 190px;
+      height: 100px;
+  }
+
+  .footer__bar__content {
+      flex-direction: column;
+      text-align: center;
+      gap: 1rem;
+  }
+
+  .footer__socials {
+      justify-content: center;
+      margin-left: 13px;
+  }
+
+
+/* Evergreen hospital motto styling */
+.pppp {
+  margin-left: 0%;
+  text-align: center;
+  font-size: 20px;
+}
+
+.footer{
+  width: 429px;
+}
+
+}
