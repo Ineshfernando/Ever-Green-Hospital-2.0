@@ -184,7 +184,7 @@ button:hover {
 
 .cart-table {
     width: 100%;
-    max-width: 1200px;
+    max-width: 490px;
     margin: 20px auto;
     border-collapse: collapse;
     background-color: #fff;
@@ -609,15 +609,7 @@ button:hover {
     margin-left: -145px;
 }
     
-.cart-table {
-    width: 50%;
-    max-width: 1200px;
-    margin: 20px auto;
-    border-collapse: collapse;
-    background-color: #fff;
-    border: 1px solid #ddd;
-    margin-right: 16%;
-  }
+
 }
 
 
